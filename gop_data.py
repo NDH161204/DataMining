@@ -18,7 +18,7 @@ def doc_txt(ten_file, nhan):
 # 1. Đọc và gán nhãn từ các file của PayloadBox
 df_sqli = doc_txt('sqli.txt', 1)
 df_xss = doc_txt('xss.txt', 1)
-df_cmdi = doc_txt('cmdi.txt', 1)  # ---> ĐÃ THÊM CMDI Ở ĐÂY
+df_cmdi = doc_txt('cmdi.txt', 1)  
 df_normal = doc_txt('normal.txt', 0)
 
 # ========================================================

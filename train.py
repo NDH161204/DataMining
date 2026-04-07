@@ -11,7 +11,7 @@ import urllib.parse
 import time
 import pickle
 
-print("🚀 ĐANG KHỞI ĐỘNG HỆ THỐNG AI (BẢN FINAL 10/10 - CHUẨN RESEARCH)...\n")
+print("🚀 ĐANG KHỞI ĐỘNG HỆ THỐNG AI)...\n")
 
 # --- 1. ĐỌC VÀ TIỀN XỬ LÝ DỮ LIỆU ---
 ten_file = "dataset_BTL_hoan_chinh.csv"
@@ -124,4 +124,4 @@ with open("tfidf.pkl", "wb") as f:
 with open("scaler.pkl", "wb") as f:
     pickle.dump(scaler, f)
 
-print("✅ Đã xuất xưởng hệ thống hoàn chỉnh 10/10. Sẵn sàng tích hợp Web!")
+print("✅ Đã xuất xưởng hệ thống hoàn chỉnh. Sẵn sàng tích hợp Web!")
